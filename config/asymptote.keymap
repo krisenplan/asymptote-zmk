@@ -25,7 +25,7 @@
             bindings = <
 &kp ESC    &kp Q     &kp W        &kp E      &kp R     &kp T     &kp Y  &kp U  &kp I      &kp O    &kp P          &kp BSPC
 &kp TAB    &kp A     &kp S        &kp D      &kp F     &kp G     &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON  &lt 3 RET
-&kp LSHFT  &kp Z     &kp X        &kp C      &kp V     &kp B     &kp N  &kp M  &kp COMMA  &kp DOT  &kp UP_ARROW   &tog 2
+&kp LSHFT  &kp Z     &kp X        &kp C      &kp V     &kp B     &kp N  &kp M  &kp COMMA  &kp DOT  &kp UP_ARROW   &lt 2 K_CMENU
 &kp LCTRL  &kp RALT  &lt 1 SPACE  &kp RIGHT  &kp LEFT  &kp DOWN
             >;
         };
@@ -50,8 +50,8 @@
 
         Layer__3 {
             bindings = <
-&bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &out OUT_TOG  &bt BT_CLR    &none
-&sys_reset   &bt BT_PRV    &bt BT_NXT    &none         &none         &none         &none  &none  &none  &none         &none         &trans
+&sys_reset   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &out OUT_TOG  &bt BT_CLR    &none
+&bootloader  &bt BT_PRV    &bt BT_NXT    &none         &none         &none         &none  &none  &none  &none         &none         &trans
 &none        &none         &none         &none         &none         &none         &none  &none  &none  &none         &kp C_VOL_UP  &trans
 &trans       &trans        &trans        &kp C_STOP    &kp C_VOL_DN  &kp C_MUTE
             >;
