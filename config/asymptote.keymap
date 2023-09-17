@@ -41,10 +41,10 @@
 
         Layer__2 {
             bindings = <
-&kp ESC           &kp F1        &kp F2  &kp F3           &kp F4    &kp F5   &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&trans            &trans        &trans  &trans           &trans    &trans   &trans  &trans  &trans  &trans  &trans   &kp F12
-&trans            &trans        &trans  &trans           &trans    &trans   &trans  &trans  &trans  &trans  &trans   &trans
-&kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &kp PRINTSCREEN  &kp LWIN  &kp DEL
+&kp ESC           &kp F1        &kp F2  &kp F3   &kp F4          &kp F5    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&trans            &trans        &trans  &trans   &trans          &trans    &trans  &trans  &trans  &trans  &trans   &kp F12
+&trans            &trans        &trans  &trans   &trans          &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&kp LEFT_CONTROL  &kp LEFT_ALT  &trans  &kp DEL  &kp C_AC_PRINT  &kp LWIN
             >;
         };
 
@@ -53,7 +53,7 @@
 &sys_reset   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &out OUT_TOG  &bt BT_CLR    &none
 &bootloader  &bt BT_PRV    &bt BT_NXT    &none         &none         &none         &none  &none  &none  &none         &none         &trans
 &none        &none         &none         &none         &none         &none         &none  &none  &none  &none         &kp C_VOL_UP  &trans
-&trans       &trans        &trans        &kp C_STOP    &kp C_VOL_DN  &kp C_MUTE
+&trans       &trans        &trans        &kp C_MUTE    &none         &kp C_VOL_DN
             >;
         };
     };
